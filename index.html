@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+</head>
+<style>
+    body{
+        padding: 50px;
+        text-align: center;
+    }
+    h1{
+        background-color: rgb(237, 80, 40);
+        line-height: 1.5;
+        margin: 0;
+    }
+    textarea{
+        width: 99.5%;
+        height: 200px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin: 0;
+    }
+    .word{
+        line-height: 2;
+        font-size: larger;
+        margin: 0;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+
+        <h1>Word Counter</h1>
+        <textarea name="text" id="textarea" cols="30" rows="10" autofocus></textarea>
+
+        <p class="word">
+            <span id="char">0</span> characters and <span id="word">0</span> words
+        <p>
+
+
+
+    <script src="wordCounter.js"></script>
+</body>
+
+</html>
